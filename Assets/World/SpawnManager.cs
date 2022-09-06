@@ -37,14 +37,14 @@ public class SpawnManager : NetworkBehaviour
             int pos = Random.Range(0, m_locations.Count);
             var location = new Vector3(m_locations[pos].x, m_locations[pos].y, 0f);
             player.transform.position = location;
-            player.GetComponent<NetworkTransform>().ForceSend(location);
+            //player.GetComponent<NetworkTransform>().ForceSend(location);
             TeleportToSpawnClientRpc(id, location);
             m_locations.RemoveAt(pos);
         }
         else
         {
             player.transform.position = Vector3.zero;
-            player.GetComponent<NetworkTransform>().ForceSend(Vector3.zero);
+            //player.GetComponent<NetworkTransform>().ForceSend(Vector3.zero);
             TeleportToSpawnClientRpc(id, Vector3.zero);
         }
     }
@@ -69,7 +69,7 @@ public class SpawnManager : NetworkBehaviour
         else
         {
             player.transform.position = Vector3.zero;
-            player.GetComponent<NetworkTransform>().ForceSend(Vector3.zero);
+            //player.GetComponent<NetworkTransform>().ForceSend(Vector3.zero);
         }
     }
     // Start is called before the first frame update

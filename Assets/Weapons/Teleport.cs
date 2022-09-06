@@ -79,7 +79,7 @@ public class Teleport : DroppableWeapon
                 ShowEffectServerRpc(transform.position);
                 ShowEffectServerRpc(destinationFix);
 
-                player.GetComponent<NetworkTransform>().ForceSend(destinationFix);
+                //player.GetComponent<NetworkTransform>().ForceSend(destinationFix);
                 player.position = destinationFix;
                 m_timeSinceUse = 0f;
             }

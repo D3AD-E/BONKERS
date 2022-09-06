@@ -407,7 +407,7 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
@@ -486,12 +486,12 @@ MonoBehaviour:
   FixedSendsPerSecond: 100
   AssumeSyncedSends: 1
   InterpolatePosition: 1
-  SnapDistance: 10
+  SnapDistance: 20
   InterpolateServer: 1
-  MinMeters: 0.15
+  MinMeters: 0.02
   MinDegrees: 1.5
   ExtrapolatePosition: 0
-  MaxSendsToExtrapolate: 5
+  MaxSendsToExtrapolate: 1
   Channel: 
   EnableRange: 0
   EnableNonProvokedResendChecks: 0
@@ -499,8 +499,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0
-      value: 20
+      time: 7.6219482
+      value: 20.066921
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -508,8 +508,8 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 500
-      value: 20
+      time: 4984.6064
+      value: 20.066921
       inSlope: 0
       outSlope: 0
       tangentMode: 0
