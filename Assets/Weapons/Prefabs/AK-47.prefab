@@ -102,17 +102,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd9ff24edc2ebd04bb40e7b3468e488e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_body: {fileID: 1549921941903356328}
-  m_collider: {fileID: 4470089504700616705}
-  m_halo: {fileID: 1696480211420896875}
   m_type: 7
+  m_shootSound: {fileID: 8300000, guid: 21413641b063337438489b73a8b822c3, type: 3}
+  m_equipSound: {fileID: 8300000, guid: d41c1f8bb81c2b34fb144fe47f90f0b4, type: 3}
   m_fireDelay: 0.2
   m_damage: 18
   m_bullets: {fileID: 3746742634814956675, guid: d61bc09f588598a48b9c730a2ebc67a9, type: 3}
   m_holdmouse: 1
   m_spread: 4
-  m_shootSound: {fileID: 8300000, guid: 21413641b063337438489b73a8b822c3, type: 3}
-  m_equipSound: {fileID: 8300000, guid: d41c1f8bb81c2b34fb144fe47f90f0b4, type: 3}
   m_bulletsAmount:
     m_InternalValue: 20
 --- !u!50 &1549921941903356328
@@ -258,7 +255,7 @@ MonoBehaviour:
   InterpolatePosition: 1
   SnapDistance: 10
   InterpolateServer: 1
-  MinMeters: 0.15
+  MinMeters: 0.01
   MinDegrees: 1.5
   ExtrapolatePosition: 0
   MaxSendsToExtrapolate: 5

@@ -211,9 +211,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64a057e3b52634d44a0addf32c079aab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_body: {fileID: 8701554056975128992}
-  m_collider: {fileID: 951443281016782229}
-  m_halo: {fileID: 6851768515346817275}
   m_type: 5
   m_shootSound: {fileID: 8300000, guid: 0b8b7dbf803db7f4e95b5254eb2adca1, type: 3}
   m_equipSound: {fileID: 8300000, guid: f9b81e3f44b6c694fbbc125f76c28607, type: 3}
@@ -261,7 +258,7 @@ MonoBehaviour:
   InterpolatePosition: 1
   SnapDistance: 10
   InterpolateServer: 1
-  MinMeters: 0.15
+  MinMeters: 0.01
   MinDegrees: 1.5
   ExtrapolatePosition: 0
   MaxSendsToExtrapolate: 5
